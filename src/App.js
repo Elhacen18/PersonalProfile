@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import NavMenu from './Components/NavMenu';
+import AboutMe from './Components/AboutMe';
+import Skills from './Components/Skills';
+import Contact from './Components/Contact';
+import Education from './Components/Education';
+import Projects from './Components/Projects';
+import Experience from './Components/Experience';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-         Website Launching Soon: Explore My Coding Universe!
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <NavMenu />
+        
+        <Routes>
+          <Route exact path="/" element={<AboutMe />} />
+          <Route path="/AboutMe" element={<AboutMe />} />
+          <Route path="/Experience" element={<Experience />} />
+          <Route path="/Education" element={<Education />} />
+          <Route path="/Contact" element={<Contact />} />
+          <Route path="/Skills" element={<Skills />} />
+          <Route path="/Projects" element={<Projects />} />
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 
