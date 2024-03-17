@@ -11,11 +11,8 @@ class NavMenu extends Component {
   render() {
     return (
     <>
-
         <Navbar bg="dark"  data-bs-theme="dark">
-
         <Container className="justify-content-center">
-        {/* <Navbar.Brand href="#home" style={{ marginRight: '300px' }}>Elhacen</Navbar.Brand> */}
 
           <Nav >
             <Link to="/AboutMe" className="nav-link" activeClassName="active">About me</Link>
@@ -28,6 +25,7 @@ class NavMenu extends Component {
 
         </Container>
       </Navbar>
+      <h1 className='H1'>This website is still under construction</h1>
       </>
     );
   }
