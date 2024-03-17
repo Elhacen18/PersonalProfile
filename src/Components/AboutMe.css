@@ -1,0 +1,26 @@
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .Image,
+  .about {
+    margin: 10px;
+    flex: 1;
+    padding: 20px;
+  }
+
+  /* Adjust styling as needed */
+  .Image {
+    /* background-color: #f0f0f0; */
+  }
+
+  .about {
+    /* background-color: #e0e0e0; */
+  }
+
+  /* Ensure paragraphs don't stretch to full width */
+  .Image p,
+  .about p {
+    width: 100%;
+  }

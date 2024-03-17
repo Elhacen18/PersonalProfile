@@ -4,13 +4,19 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import 'bootstrap/dist/css/bootstrap.css';
+import  './NavMenu.css';
+
 
 class NavMenu extends Component {
   render() {
     return (
     <>
-        <Navbar bg="dark" data-bs-theme="dark" expand="lg">
+
+        <Navbar bg="dark"  data-bs-theme="dark">
+
         <Container className="justify-content-center">
+        {/* <Navbar.Brand href="#home" style={{ marginRight: '300px' }}>Elhacen</Navbar.Brand> */}
+
           <Nav >
             <Link to="/AboutMe" className="nav-link" activeClassName="active">About me</Link>
             <Link to="/Experience" className="nav-link">Experience</Link>
@@ -19,6 +25,7 @@ class NavMenu extends Component {
             <Link to="/Projects" className="nav-link">Projects</Link>
             <Link to="/Contact" className="nav-link">Contact</Link>
           </Nav>
+
         </Container>
       </Navbar>
       </>
