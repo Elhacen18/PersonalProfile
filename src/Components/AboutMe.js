@@ -29,12 +29,7 @@ class AboutMe extends Component {
               elit pellentesque habitant morbi tristique. Amet cursus sit amet
               dictum sit amet justo donec. Tortor at risus viverra adipiscing
               at. Pulvinar pellentesque habitant morbi tristique. Amet
-              consectetur adipiscing elit ut aliquam. Aenean et tortor at risus
-              viverra adipiscing at in. Ornare quam viverra orci sagittis eu.
-              Elementum nisi quis eleifend quam adipiscing vitae. Adipiscing
-              elit pellentesque habitant morbi tristique. Amet cursus sit amet
-              dictum sit amet justo donec. Tortor at risus viverra adipiscing
-              at. Pulvinar pellentesque habitant morbi tristique.
+              consectetur adipiscing elit ut aliquam. 
             </p>
           </div>
         </div>
