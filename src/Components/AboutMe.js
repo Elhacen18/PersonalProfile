@@ -1,35 +1,41 @@
 import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.css";
-import  './AboutMe.css';
-import Image from 'react-bootstrap/Image';
-
+import "./AboutMe.css";
+import Image from "react-bootstrap/Image";
 
 class AboutMe extends Component {
   render() {
     return (
       <>
-      
         <div class="container">
           <div class="Image">
-          <Image src="/ElhacenPic2.jpeg" fluid />
+            <figure className="figure">
+              <Image src="/ElhacenPic2.jpeg" fluid />
+              <figcaption className="figure-caption">
+                Ohio River. Louisville, KY
+              </figcaption>
+            </figure>
           </div>
           <div class="about">
             <p>
               <h1>Elhacen Elmoustapha</h1>
               <h3>Software engineer</h3>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc
-              aliquet bibendum enim facilisis. Tincidunt augue interdum velit
-              euismod in pellentesque. Convallis tellus id interdum velit
-              laoreet id donec. Tincidunt tortor aliquam nulla facilisi. Est
-              placerat in egestas erat imperdiet sed euismod nisi porta. Amet
-              consectetur adipiscing elit ut aliquam. Aenean et tortor at risus
-              viverra adipiscing at in. Ornare quam viverra orci sagittis eu.
-              Elementum nisi quis eleifend quam adipiscing vitae. Adipiscing
-              elit pellentesque habitant morbi tristique. Amet cursus sit amet
-              dictum sit amet justo donec. Tortor at risus viverra adipiscing
-              at. Pulvinar pellentesque habitant morbi tristique. Amet
-              consectetur adipiscing elit ut aliquam. 
+              Welcome to my personal website! I'm Elhacen Elmoustapha, a junior
+              software engineer pursuing a Master's degree in Computer Science
+              and Engineering with a passion for software engineering,
+              cybersecurity, and AI. I graduated from the University of
+              Louisville in May of 2023 with a Bachelor's in Computer Science
+              and Engineering. With a foundation in computer science and two
+              years of hands-on experience, I enjoy working in dynamic
+              environments where problem-solving and collaboration are key. My
+              experience includes working with technologies such as .Net, C#,
+              SQL Server, and Angular 10, enabling me to design and implement
+              software solutions tailored to meet project needs and business
+              requirements. I have also worked with languages such Java, C, C++,
+              and Python in academic settings. Outside of coding, I'm curious,
+              constantly exploring new technologies and striving to enhance my
+              skills as a software engineer. There's nothing quite like the
+              satisfaction of bringing ideas to life through code!
             </p>
           </div>
         </div>
