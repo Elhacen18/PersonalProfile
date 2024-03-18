@@ -25,7 +25,7 @@ class NavMenu extends Component {
 
         </Container>
       </Navbar>
-      <h3 className='H1'>This website is still under construction</h3>
+      <p className='H1'>This website is still under construction</p>
       </>
     );
   }
