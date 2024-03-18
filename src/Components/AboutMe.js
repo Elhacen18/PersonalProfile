@@ -18,8 +18,8 @@ class AboutMe extends Component {
           </div>
           <div class="about">
             <p>
-              <h1>Elhacen Elmoustapha</h1>
-              <h3>Software engineer</h3>
+              <h3>Elhacen Elmoustapha</h3>
+              <h4>Software engineer</h4>
               Welcome to my personal website! I'm Elhacen Elmoustapha, a junior
               software engineer pursuing a Master's degree in Computer Science
               and Engineering with a passion for software engineering,
