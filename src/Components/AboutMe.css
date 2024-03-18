@@ -10,17 +10,12 @@
     padding: 20px;
   }
 
-  /* Adjust styling as needed */
-  .Image {
-    /* background-color: #f0f0f0; */
-  }
 
-  .about {
-    /* background-color: #e0e0e0; */
-  }
 
   /* Ensure paragraphs don't stretch to full width */
-  .Image p,
-  .about p {
+  .Image 
+  {width: 95%;
+  }
+  .about {
     width: 100%;
   }

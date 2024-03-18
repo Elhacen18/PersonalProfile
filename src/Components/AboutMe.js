@@ -17,10 +17,10 @@ class AboutMe extends Component {
             </figure>
           </div>
           <div class="about">
+          <h3>Elhacen Elmoustapha</h3>
             <p>
-              <h3>Elhacen Elmoustapha</h3>
               <h4>Software engineer</h4>
-              Welcome to my personal website! I'm Elhacen Elmoustapha, a junior
+              Welcome to my website! I'm Elhacen Elmoustapha, a junior
               software engineer pursuing a Master's degree in Computer Science
               and Engineering with a passion for software engineering,
               cybersecurity, and AI. I graduated from the University of
