@@ -5,16 +5,21 @@ import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import 'bootstrap/dist/css/bootstrap.css';
 import  './NavMenu.css';
+import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse';
 
 
 class NavMenu extends Component {
   render() {
     return (
     <>
-        <Navbar bg="dark"  data-bs-theme="dark">
-        <Container className="justify-content-center">
+    <div className='MyNavBar'>
+        <Navbar className="justify-content-center" collapseOnSelect fixed='top' expand='sm' bg="dark"  data-bs-theme="dark">
+        <Container >
+          <Navbar.Toggle aria-controls='responsive-navbar-nav'/>
+         <NavbarCollapse id='responsive-navbar-nav'>
+         <Navbar.Brand href="#home">Elhacen Elmoustapha</Navbar.Brand>
 
-          <Nav >
+          <Nav className="m-auto">
             <Link to="/AboutMe" className="nav-link" activeClassName="active">About me</Link>
             <Link to="/Experience" className="nav-link">Experience</Link>
             <Link to="/Education" className="nav-link">Education</Link>
@@ -22,10 +27,10 @@ class NavMenu extends Component {
             <Link to="/Projects" className="nav-link">Projects</Link>
             <Link to="/Contact" className="nav-link">Contact</Link>
           </Nav>
-
+          </NavbarCollapse>
         </Container>
       </Navbar>
-      <p className='H1'>This website is still under construction</p>
+      </div>
       </>
     );
   }

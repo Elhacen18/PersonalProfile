@@ -9,13 +9,20 @@
     flex: 1;
     padding: 20px;
   }
+  h3 {
+    font-size: 50px;
+  }
+  /* Adjust styling as needed */
+  .Image {
+    /* background-color: #f0f0f0; */
+  }
 
-
+  .about {
+    /* background-color: #e0e0e0; */
+  }
 
   /* Ensure paragraphs don't stretch to full width */
-  .Image 
-  {width: 95%;
-  }
+  .Image,
   .about {
     width: 100%;
   }
