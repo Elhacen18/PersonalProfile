@@ -17,10 +17,9 @@ class AboutMe extends Component {
             </figure>
           </div>
           <div class="about">
-            <h3>Elhacen Elmoustapha</h3>
             <p>
               <h5>Software engineer(website is still under construction)</h5>
-              Welcome to my website! I'm Elhacen, a software engineer pursuing a
+              Welcome to my website! I'm Elhacen Elmoustapha, a software engineer pursuing a
               Master's degree in Computer Science and Engineering with a passion
               for software engineering, cybersecurity, and AI. I graduated from
               the University of Louisville in May of 2023 with a Bachelor's in
