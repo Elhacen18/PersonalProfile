@@ -15,10 +15,10 @@ class NavMenu extends Component {
     <div className='MyNavBar'>
         <Navbar className="justify-content-center" collapseOnSelect fixed='top' expand='sm' bg="dark"  data-bs-theme="dark">
         <Container >
+        <Navbar.Brand href="#home">Elhacen Elmoustapha</Navbar.Brand>
+
           <Navbar.Toggle aria-controls='responsive-navbar-nav'/>
          <NavbarCollapse id='responsive-navbar-nav'>
-         <Navbar.Brand href="#home">Elhacen Elmoustapha</Navbar.Brand>
-
           <Nav className="m-auto">
             <Link to="/AboutMe" className="nav-link" activeClassName="active">About me</Link>
             <Link to="/Experience" className="nav-link">Experience</Link>
