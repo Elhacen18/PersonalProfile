@@ -19,6 +19,7 @@ class NavMenu extends Component {
 
           <Navbar.Toggle aria-controls='responsive-navbar-nav'/>
          <NavbarCollapse id='responsive-navbar-nav'>
+
           <Nav className="m-auto">
             <Link to="/AboutMe" className="nav-link" activeClassName="active">About me</Link>
             <Link to="/Experience" className="nav-link">Experience</Link>

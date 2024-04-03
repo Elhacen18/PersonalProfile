@@ -17,25 +17,24 @@ class AboutMe extends Component {
             </figure>
           </div>
           <div class="about">
-          <h3>Elhacen Elmoustapha</h3>
+            <h3>Elhacen Elmoustapha</h3>
             <p>
               <h5>Software engineer(website is still under construction)</h5>
-              Welcome to my website! I'm Elhacen Elmoustapha, a junior
-              software engineer pursuing a Master's degree in Computer Science
-              and Engineering with a passion for software engineering,
-              cybersecurity, and AI. I graduated from the University of
-              Louisville in May of 2023 with a Bachelor's in Computer Science
-              and Engineering. With a foundation in computer science and two
-              years of hands-on experience, I enjoy working in dynamic
-              environments where problem-solving and collaboration are key. My
-              experience includes working with technologies such as .Net, C#,
-              SQL Server, and Angular 10, enabling me to design and implement
-              software solutions tailored to meet project needs and business
-              requirements. I have also worked with languages such Java, C, C++,
-              and Python in academic settings. Outside of coding, I'm curious,
-              constantly exploring new technologies and striving to enhance my
-              skills as a software engineer. There's nothing quite like the
-              satisfaction of bringing ideas to life through code!
+              Welcome to my website! I'm Elhacen, a software engineer pursuing a
+              Master's degree in Computer Science and Engineering with a passion
+              for software engineering, cybersecurity, and AI. I graduated from
+              the University of Louisville in May of 2023 with a Bachelor's in
+              Computer Science and Engineering. With a foundation in computer
+              science and two years of hands-on experience, I enjoy working in
+              dynamic environments where problem-solving and collaboration are
+              key. My experience includes working with technologies such as
+              .Net, C#, SQL Server, and Angular 10, enabling me to design and
+              implement software solutions tailored to meet project needs and
+              business requirements. I have also worked with languages such
+              Java, C, C++, and Python in academic settings. Outside of coding,
+              I'm curious, constantly exploring new technologies and striving to
+              enhance my skills as a software engineer. There's nothing quite
+              like the satisfaction of bringing ideas to life through code!
             </p>
           </div>
         </div>
