@@ -32,8 +32,7 @@ class AboutMe extends Component {
               business requirements. I have also worked with languages such
               Java, C, C++, and Python in academic settings. Outside of coding,
               I'm curious, constantly exploring new technologies and striving to
-              enhance my skills as a software engineer. There's nothing quite
-              like the satisfaction of bringing ideas to life through code!
+              enhance my skills as a software engineer. 
             </p>
           </div>
         </div>
