@@ -26,6 +26,7 @@ class NavMenu extends Component {
             <Link to="/Education" className="nav-link">Education</Link>
             <Link to="/Skills" className="nav-link">Skills</Link>
             <Link to="/Projects" className="nav-link">Projects</Link>
+            <Link to="/Blog" className="nav-link">Blog</Link>
             <Link to="/Contact" className="nav-link">Contact</Link>
           </Nav>
           </NavbarCollapse>
