@@ -22,6 +22,8 @@ class Experience extends Component {
                     University of Lousiville logistics and distribution
                     institute
                   </h5>
+                  <span>Louisville, KY</span>
+
                 </span>
                 <hr />
                 <p>
@@ -57,24 +59,22 @@ class Experience extends Component {
                 <h3>Data Integrity Analyst co-op I </h3><span>August 2022 - December 2022</span>
                 <span>
                   <h5>
-                    The Rawlings Group
+                    The Rawlings Group 
                   </h5>
+                  <span>La Grange, KY</span>
                 </span>
                 <hr />
                 <p>
-                  Design and develop a web-based decision support tool that
-                  integrate machine learning method for predicting pavement
-                  conditions tailored to the needs of Kentucky State DOT
-                  engineers.</p>
+                Created, validated, and sent weekly Excel reports for failures in clients files monitoring.</p>
                   <p>
-                  Create a user-friendly interface allowing engineers to input
-                  data in CSV format into the prediction model.
+                  Ensured high quality of data is collected and validate the integrity of the data and monitored files against data inputted in SQL
+server databases.
                   </p>
                   <p>
-                  Utilized React.js for frontend and Flask with Python for backend development.
+                  Ensured data integrity by using automated processes for capturing data, updating records, and deleting outdated data.
                   </p>
                 <p>
-                 Incorporate visual representations of prediction results, such as graphs to enhance data interpretation.
+                Utilized SQL Server and SSIS for the ETL (Extract, Transform, Load) process.
                 </p>
                 <p>
                 Ensure compatibility for exporting prediction results for further analysis </p>
@@ -96,6 +96,8 @@ class Experience extends Component {
                   <h5>
                     The Rawlings Group
                   </h5>
+                  <span>La Grange, KY</span>
+
                 </span>
                 <hr />
                 <p>
@@ -129,6 +131,8 @@ class Experience extends Component {
                   <h5>
                     The Rawlings Group
                   </h5>
+                  <span>La Grange, KY</span>
+
                 </span>
                 <hr />
                 <p>
